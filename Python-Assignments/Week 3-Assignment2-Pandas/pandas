@@ -1,0 +1,27 @@
+import pandas as pd 
+
+data = {"Name":["Rumail","Rukham","Mahnoor","Maryam"],
+        "Age":[21,20,17,13], }
+df = pd.DataFrame(data)
+print(df)
+
+#creat csv file:
+#df.to_csv("output.csv")
+
+# if you don't need Index:
+#df.to_csv("output.csv",index=False)
+
+#Read data from CSV file
+#df = pd.read_csv(r"C:\Users\Rukham Ijaz\Downloads\Documents\GitHub\desktop-tutorial\RealEstate-USA.csv")
+#print(df)
+#Analyzing starting and ending rows:
+#df = pd.read_csv(r"C:\Users\Rukham Ijaz\Downloads\Documents\GitHub\desktop-tutorial\RealEstate-USA.csv")
+#print("Display 10 rows of first")
+#print(df.head(10))
+
+#print("Display 10 rows of last" )
+#print(df.tail(10))
+
+#use info()method
+# print(displying)
+
