@@ -183,7 +183,7 @@ plt.show()
 
 #Bar plot, set following 5 theme one by one. [sns.set_style( ) ] 
 # Create a plot
-sns.barplotplot(x='city', y='price', data=df)
+sns.barplot(x='city', y='price', data=df)
 plt.show()
 
 # Other themes can be set similarly
